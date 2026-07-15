@@ -1,0 +1,25 @@
+# Logs
+logs/
+*.log
+
+# Local overrides
+profiles/active.json
+config/local.yaml
+
+# API keys — never commit
+.env
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# IDE
+.vscode/
+.idea/
